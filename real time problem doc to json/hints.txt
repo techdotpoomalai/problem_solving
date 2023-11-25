@@ -1,0 +1,2 @@
+Read table data row and the column value.
+Write the row and the column values in the json format. 
