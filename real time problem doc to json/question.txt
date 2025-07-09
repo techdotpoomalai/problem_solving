@@ -1,0 +1,76 @@
+The input file is in the format .rtf((Sample.rtf) and consists of a table with headers. You are required to write a program that reads the input file and generates output data in the form of JSON as shown below.
+Your code should be capable of enduring changes made to the input file, and the same changes should be replicated in the JSON output file as well.
+
+
+
+Example:
+
+[
+  {
+    "Interview": "Interview",
+    "Test": "ABC-301",
+    "Reportname": "Question",
+    "ReturnMessage": "Successful",
+    "MarkDetails": [
+      {
+        "Column1 ": "Row1",
+        "Column2": "",
+        "Column3": "",
+        "Column4": "5233"
+      },
+      {
+        "Column1": "Row2",
+        "Column2": "3089",
+        "Column3": "1031",
+        "Column4": "4120",
+        "MarkDetails": [
+          {
+            "Column1": "Row2.1",
+            "Column2": "3082  (99.8)",
+            "Column3": "1030  (99.9)",
+            "Column4": "4112  (99.8)"
+          },
+          {
+            "Column1": "Row2.2",
+            "Column2": "7   (0.2)",
+            "Column3": "1   (0.1)",
+            "Column4": "8   (0.2)"
+          }
+        ]
+      },
+      {
+        "Column1": "Row3",
+        "Column2": "376  (12.2)",
+        "Column3": "121  (11.7)",
+        "Column4": "497  (12.1)",
+        "MarkDetails": [
+          {
+            "Column1": "Row3.1",
+            "Column2": "375  (12.1)",
+            "Column3": "121  (11.7)",
+            "Column4": "496  (12.0)"
+          }
+        ]
+      },
+      {
+        "Column1": "Row4",
+        "Column2": "3070",
+        "Column3": "1045",
+        "Column4": "4115"
+      },
+      {
+        "Column1": "Row5",
+        "Column2": "208   (6.7)",
+        "Column3": "66   (6.4)",
+        "Column4": "274   (6.7)"
+      },
+      {
+        "Column1": "Row6",
+        "Column2": "191   (6.2)",
+        "Column3": "54   (5.2)",
+        "Column4": "245   (5.9)"
+      }
+    ]
+  }
+]
+
